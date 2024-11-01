@@ -1,0 +1,4 @@
+rootProject.name = 'embeded'
+// settings.gradle in embeded_system folder
+include ':embeded' // Backend project
+project(':embeded').projectDir = new File(rootDir, 'embeded') // Set the directory explicitly
